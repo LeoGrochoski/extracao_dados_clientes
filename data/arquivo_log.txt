@@ -1,0 +1,2 @@
+ETL Iniciado: [2024-May-29-18:54:23]
+Fase de Extracao iniciada: [2024-May-29-18:54:23]
