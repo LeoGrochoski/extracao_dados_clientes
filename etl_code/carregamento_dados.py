@@ -1,10 +1,11 @@
 from datetime import datetime 
 from transformacao_dados import transformacao
 from extracao_dados import extracao
+import pandas as pd
 
 
 arquivo_log = r"C:/Lab/extracao_dados_clientes/data/arquivo_log.txt" 
-arquivo_salvo = r"C:/Lab/extracao_dados_clientes/data/dados_prontos.csv" 
+arquivo_salvo = r"C:/Lab/extracao_dados_clientes/data/dados_clientes.csv" 
 
 def carrega_dados(arquivo_salvo, dados_transformados): 
     dados_transformados.to_csv(arquivo_salvo)

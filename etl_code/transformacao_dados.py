@@ -1,10 +1,12 @@
-import re
+import re # Biblioteca para utilização de regex e localização de alfanumericos. 
+import pandas as pd
 
-def transformacao(dados): 
+def transformacao(info): 
     """
-    Função para transformacao dos dados dos arquivos, retirando tudo que nao for numerico
+    Função para transformacão dos dados dos arquivos, retirando tudo que nao for numérico.
     """
-    dados['telefone'] = re.sub('[^0-9]', '', dados['telefone'])
-    dados['renda'] = re.sub('[^0-9]', '', dados['renda'])
-    
-    return dados 
+
+    info['telefone'] = info['telefone'].str.replace(r'[^a-zA-Z0-9 ]+', '').str.replace(r'\s+', ' ').str.strip()
+    info['renda'] = info['renda'].str[2:].astype(float)
+
+    return info 

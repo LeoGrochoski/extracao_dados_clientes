@@ -53,14 +53,17 @@ def extracao_xml(arquivo: str) -> pd.DataFrame:
     return dados_xml
 
 # A logica que utilizarei é a criação de um DF vazio para persistir os dados 
-# e depois extrair os dados para cada extensâo e concatena-las no dataframe vazio recem criado.
+# e depois extrair os dados para cada extensâo e concatena-los no dataframe vazio recem criado.
 
 
 dados_csv = []
 dados_json = []
 dados_xml = []
 
-def extracao(diretorio):    
+def extracao():
+    """
+    Função que realiza a organização a extração dos dados dos arquivos e concatena as informações em um DataFrame. 
+    """    
     dados_extraidos = pd.DataFrame(columns=["car_model", "year_of_manufacture", "price", "fuel"])
     
     for csvfile in glob.glob(os.path.join(diretorio, "*.csv")): 
