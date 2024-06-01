@@ -64,7 +64,7 @@ def extracao():
     """
     Função que realiza a organização a extração dos dados dos arquivos e concatena as informações em um DataFrame. 
     """    
-    dados_extraidos = pd.DataFrame(columns=["car_model", "year_of_manufacture", "price", "fuel"])
+    dados_extraidos = pd.DataFrame(columns=["nome", "email", "telefone", "endereco", "renda"])
     
     for csvfile in glob.glob(os.path.join(diretorio, "*.csv")): 
         dados_extraidos = pd.concat([dados_extraidos, pd.DataFrame(extracao_csv(csvfile))], ignore_index=True) 

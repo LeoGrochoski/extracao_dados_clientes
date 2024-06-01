@@ -6,7 +6,8 @@ def transformacao(info):
     Função para transformacão dos dados dos arquivos, retirando tudo que nao for numérico.
     """
 
-    info['telefone'] = info['telefone'].str.replace(r'[^a-zA-Z0-9 ]+', '').str.replace(r'\s+', ' ').str.strip()
-    info['renda'] = info['renda'].str[2:].astype(float)
+    info['telefone'] = info['telefone'].str.replace(r'[^\d]', '', regex=True)
+    info['telefone'] = info['telefone'].str.replace(r'^55', '', regex=True)
+
 
     return info 
