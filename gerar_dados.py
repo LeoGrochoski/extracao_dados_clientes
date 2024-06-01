@@ -19,7 +19,7 @@ def gerar_dados_csv(num_registros: int = 20) -> List[Dict[str, str]]:
             "email": unidecode(fake.email()),
             "telefone": unidecode(fake.phone_number()),
             "endereco": unidecode(fake.address()),
-            "renda": round(fake.random_number(digits=5, fix_len=True) / 100, 2)
+            "renda": round(fake.random_number(digits=6, fix_len=True) / 100, 2)
         })
     return dados
 
@@ -35,7 +35,7 @@ def gerar_dados_json(num_registros: int = 20) -> List[Dict[str, str]]:
             "email": fake.email(),
             "telefone": fake.phone_number(),
             "endereco": fake.address(),
-            "renda": round(fake.random_number(digits=5, fix_len=True) / 100, 2)
+            "renda": round(fake.random_number(digits=6, fix_len=True) / 100, 2)
         })
     return dados
 
@@ -51,7 +51,7 @@ def gerar_dados_xml(num_registros: int = 20) -> List[Dict[str, str]]:
             "email": fake.email(),
             "telefone": fake.phone_number(),
             "endereco": fake.address(),
-            "renda": round(fake.random_number(digits=5, fix_len=True) / 100, 2)
+            "renda": f" R$ {round(fake.random_number(digits=6, fix_len=True) / 100, 2)}"
         })
     return dados
 
@@ -86,9 +86,9 @@ def salvar_xml(dados: List[Dict[str, str]], nome_arquivo: str) -> None:
     tree.write(nome_arquivo, encoding="utf-8", xml_declaration=True)
 
 # Define os nomes dos arquivos
-csv_nome_arquivo: str = 'C:\\Lab\\ibm_project_etl\\data\\dados_clientes.csv'
-json_nome_arquivo: str = 'C:\\Lab\\ibm_project_etl\\data\\dados_clientes.json'
-xml_nome_arquivo: str = 'C:\\Lab\\ibm_project_etl\\data\\clientes.xml'
+csv_nome_arquivo: str = 'C:\\Lab\\extracao_dados_clientes\\data\\dados_clientes.csv'
+json_nome_arquivo: str = 'C:\\Lab\\extracao_dados_clientes\\data\\dados_clientes.json'
+xml_nome_arquivo: str = 'C:\\Lab\\extracao_dados_clientes\\data\\dados_clientes.xml'
 
 # Gera os dados para cada tipo de arquivo
 dados_csv: List[Dict[str, str]] = gerar_dados_csv()

@@ -1,181 +1,61 @@
-,car_model,year_of_manufacture,price,fuel,nome,email,telefone,endereco,renda
-0,,,,,Gabriel Araujo,araujogabriel@google.com,+55 (080) 99425-2141,"Avenida Cecilia Cavalcanti, 54
-Vila Independencia 3a Secao
-60529-089 Nunes / MT",2947.07
-1,,,,,Guilherme Andrade,taragao@google.net,(23) 93535-0953,"Praca de Silveira, 317
-Inconfidencia
-54298-907 Andrade / PR",1533.71
-2,,,,,Arthur Gabriel Peixoto,gabriel91@google.com,(11) 97050-0807,"Residencial Manuella Cavalcanti, 33
-Penha
-11046480 Guerra Alegre / CE",2311.4
-3,,,,,Joao Lucas Araujo,danilo67@google.net,+55 (032) 90807-9013,"Rua Sarah Melo
-Santa Cecilia
-88129-609 Cirino de Fogaca / SP",4890.22
-4,,,,,Maria Cecilia Peixoto,peixoto25@outlook.com,(022) 883247283,"Passarela de Sousa, 69
-Maravilha
-68021521 Alves do Norte / AL",3102.73
-5,,,,,Maya Correia,maria-luisa96@outlook.com,(084) 90842-3915,"Loteamento Cavalcante
-Barao Homem De Melo 1a Secao
-34509773 Mendes Paulista / PA",2341.85
-6,,,,,Ester Pinto,theodoroda-rosa@outlook.com,+55 (031) 95626-3915,"Sitio de Carvalho, 46
-Sao Pedro
-70839-180 Novaes / RS",1861.77
-7,,,,,Leticia Siqueira,costaraquel@outlook.com,+55 31 95290-0312,"Morro Andre Sales, 876
-Carlos Prates
-92304336 Castro / AM",2875.01
-8,,,,,José Barbosa,jbarb@outlook.com,+55 (011) 83283-4632,"Rua Porto, 3
-Acaiaca
-97265-501 Nunes / RJ",940.5
-9,,,,,Leonardo Teixeira,leo-tex@yahoo.com,(051) 98015-8015,"Recanto de Cavalcanti, 67
-Santa Helena
-09727174 Sousa / MA",3985.86
-10,,,,,Gabriel Souza,e_souza@yahoo.com,+55 (081) 06486-9484,"Rua Elisa da Luz, 38
-Jardim Alvorada
-92934-736 Goncalves do Galho / AP",3995.58
-11,,,,,Marcela Camara,camara-m@yahoo.com,+55 (081) 93832-6486,"Travessa de Costa, 405
-Esplanada
-58248847 Novais / PI",2117.51
-12,,,,,Laura Azevedo,laura-azevedo-10@yahoo.com,(084) 87100-1918,"Trevo Gabriel Cardoso, 41
-Sao Tomaz
-23212-932 Monteiro / RJ",1234.73
-13,,,,,Ana Martins,martins_A@gmail.com,(055) 98734-1918,"Avenida de Machado, 52
-Jardim Felicidade
-42738363 Fernandes / GO",1570.13
-14,,,,,Marcos Vinicius Pires,silveira@gmail.com,(031) 98252-7945,"Quadra da Chacara, 67
-Sao Francisco
-31980-214 Silveira / PR",1865.9
-15,,,,,Renan Marques,marcos-viniciusda-rosa@gmail.com,(11) 97745-7252,"Rua Novaes, 71
-Salgado Filho
-60938620 Rezende / RR",1667.84
-16,,,,,Nathan Cunha,jadedias@outlook.com,+55 (031) 86031-3794,"Avenida Joao Felipe Cardoso, 36
-Pousada Santo Antonio
-70387-041 Almeida de Abreu / AM",1752.81
-17,,,,,Gustavo Sa,iferreira@outlook.com,(051) 98865-6356,"Avenida de Monteiro, 4
-Ouro Minas
-22899500 Rios / MT",2546.32
-18,,,,,Ana Julia Caldeira,carlos-eduardomachado@outlook.com,(11) 97276-6356,"Passarela de Macedo, 61
-Vila Jardim Sao Jose
-63111928 Monteiro de Nunes / MA",2525.92
-19,,,,,Lucas Gabriel Fogaca,fcosta@mira.net,(031) 96051-6356,"Estacao Maria Liz Garcia
-Dom Bosco
-63302-377 Campos / TO",3825.93
-20,,,,,Pedro Melo,melo_1999@google.com,+55 (081) 3313-9640,"Parque Cecilia Cavalcanti, 54
-Vila Independencia 3a Secao
-60529-089 Nunes / PI",2947.07
-21,,,,,Rogerio Andrade,taragao@outlook.net,0800-440-9883,"Praca de Silveira, 317
-Inconfidencia
-54298-907 Andrade / PR",1533.71
-22,,,,,Arthur Gabriel Peixoto,Leonardo-gabriel91@google.com,11 4070 9013,"Residencial Manuella Cavalcanti, 33
-Penha
-11046480 Guerra Alegre / CE",2311.4
-23,,,,,Leonardo Araujo,danilo67@outlook.net,+55 (031) 0807 8863,"Rua Sarah Melo
-Santa Cecilia
-88129-609 Cirino de Fogaca / SP",2890.22
-24,,,,,Maria Cecilia Peixoto,gael-henrique25@google.com,(021) 7324 7050,"Passarela de Sousa, 69
-Maravilha
-68021521 Alves do Norte / AL",3102.73
-25,,,,,Maya Correia,maya96@google.com,(084) 7283-4387,"Loteamento Cavalcante
-Barao Homem De Melo 1a Secao
-34509773 Mendes Paulista / PA",5341.85
-26,,,,,Ester Pinto,theodoroda-rosa@outlook.com,+55 (031) 5626 3915,"Sitio de Carvalho, 46
-Sao Pedro
-70839-180 Novaes / RJ",2861.77
-27,,,,,Leticia Costa,costalet@google.com,+55 31 5290 6578,"Morro Andre Sales, 876
-Carlos Prates
-92304336 Castro / SP",1875.01
-28,,,,,Jair Rodrigues Barbosa,jrodrigues@outlook.com,+55 (011) 3954-8416,"Vereda Porto, 3
-Acaiaca
-97265-501 Bravo / MA",2940.5
-29,,,,,Otto Teixeira,otto_28@google.com,(051) 4632-8015,"Recanto de Cavalcanti, 67
-Santa Helena
-09727174 Sousa / PR",1985.86
-30,,,,,Enzo Gabriel Sales,xsampaio@yahoo.com,+55 (081) 1932-1803,"Favela Elisa da Luz, 38
-Jardim Alvorada
-92934-736 Curitiba / PR",2995.58
-31,,,,,Maysa Camara,may_camara@google.com,+55 (081) 9484-6486,"Patio de Costa, 405
-Esplanada
-58248847 Lagoinha / RS",6117.51
-32,,,,,Laura Azevedo,aze_laura56@yahoo.com,(084) 7100-3832,"Trevo Gabriel Cardoso, 41
-Sao Tomaz
-23212-932 Monteiro / RR",5234.73
-33,,,,,Ana Martins Ono,onoana@yahoo.com,0300-505-1918,"Feira de Machado, 52
-Jardim Felicidade
-42738363 Solidade / TO",4570.13
-34,,,,,Marcos Vinicius Pontes,mv_pontes@yahoo.com,+55 (031) 7252 2084,"Quadra da Mata, 67
-Sao Francisco
-31980-214 Silveira / RS",4865.9
-35,,,,,Renan Marcondes,renamar@outlook.com,+55 11 7945 3847,"Rua Novaes, 71
-Salgado Filho
-60938620 Rezende / RJ",1667.84
-36,,,,,Nathan Cunha,cn2000@yahoo.com,+55 (031) 9767-3794,"Parque Joao Felipe Cardoso, 36
-Pousada Santo Antonio
-70387-041 Almeida de Abreu / RR",3752.81
-37,,,,,Icaro Ferreira Sa,iferreira@outlook.com,(051) 3865-7757,"Feira de Monteiro, 4
-Ouro Minas
-22899500 Dois Rios / SP",2546.32
-38,,,,,Ana Julia Caldeira,caldeira-ju@outlook.com,11 7276 6356,"Passarela de Macedo, 61
-Vila Jardim Sao Jose
-63111928 Salvador / BA",4525.92
-39,,,,,Leonardo Nogueira,nogleo@prisma.net,(031) 99403-7205,"Estacao Maria Liz Garcia
-Dom Bosco
-63302-377 Muzambinho / Minas Gerais",7825.93
-40,,,,,Gabriel Matias Andrade,andradegabrielly@gmail.com,+55 (081) 99313-8340,"Parque Dom Escanti,114
-Vila Farao Diulio
-55482-111 Nunes / MT",1124.43
-41,,,,,Cristovao Bastista,crisbatista@yahoo.com,(013) 94440-8983,"Avenida Morro Branco, 3007
-Chapada
-13298-907 Sorocaba / SP",5033.71
-42,,,,,Pedro Rodrigo Peixoto,peixoto2024@outlook.com,11 99380-9013,"Residencial Jefferson Balboa, 233
-Penha
-13405-120 Guarulhos / SP",3311.4
-43,,,,,Joao Lucas Araujo,danilo67@yahoo.net,+55 (031) 0807 8863,"Rua Sarah Melo
-Santa Cecilia
-88129-609 Pampulha / RR",4890.22
-44,,,,,Marta Silva ,marta-25@gmail.com.com,(021) 7324 7050,"Passarela de Sousa, 69
-Maravilha
-68021521 Alves do Norte / CE",4102.73
-45,,,,,Maya Correia,maria-luisa96@gmail.com,(084) 7283-4387,"Loteamento Cavalcante
-Barao Homem De Melo 1a Secao
-34509773 Mendes Paulista / BA",2341.85
-46,,,,,Ester Pinto,theodoroda-rosa@yahoo.com,+55 (031) 5626 3915,"Sitio de Carvalho, 46
-Sao Pedro
-70839-180 Novaes / MT",4861.77
-47,,,,,Leticia Siqueira,costaraquel@gmail.com,+55 31 5290 6578,"Morro Andre Sales, 876
-Carlos Prates
-92304336 Castro / SC",5875.01
-48,,,,,Erick Barbosa,jrodrigues@gmail.com,+55 (011) 3954-8416,"Vereda Porto, 3
-Acaiaca
-97265-501 Nunes / RJ",4940.5
-49,,,,,Carlos Eduardo,carlos-eduardo65@gmail.com,(051) 4632-8015,"Monte alegre, 672
-Santa Helena
-09727174 Sousa / PI",3985.86
-50,,,,,Enzo Silva,ez.silva@yahoo.com,+55 (081) 1932-1803,"Favela Elisa da Luz, 38
-Jardim Alvorada
-92934-736 Goncalves do Galho / RJ",7995.58
-51,,,,,Alice Camarete,alicenocamarote@outlook.com,+55 (081) 9484-6486,"Patio de Costa, 405
-Esplanada
-58248847 Novais / PR",1117.51
-52,,,,,Joaquim Nogueira,el-nogz@google.com,(084) 8093-3832,"Trevo Joaquim Rodrigues, 411
-Sao Tomaz
-23212-932 Monteiro / RS",3234.73
-53,,,,,Ana Marinho,marinho@gmail.com,0300-505-1918,"Feira de Machado, 52
-Jardim Felicidade
-42738363 Fernandes / RR",1570.13
-54,,,,,Marcos Vinicius Pires,alexandre60@gmail.com,+55 (031) 7252 2084,"Quadra da Mata, 67
-Sao Francisco
-31980-214 Silveira / GO",2865.9
-55,,,,,Vinicius Marques Sobral,sobral-viniciusda-sp@gmail.com,+55 11 7945 3847,"Rua Novaes, 71
-Salgado Filho
-60938620 Rezende / TO",6667.84
-56,,,,,Ananias Dias,ananiassdedias@gmail.com,+55 (031) 9767-3794,"Parque Joao Felipe Cardoso, 36
-Pousada Santo Antonio
-70387-041 Almeida de Abreu / AM",3752.81
-57,,,,,Gustavo Sabino,g_sabino@gmail.com,(051) 3865-7757,"Feira de Monteiro, 4
-Garrafas
-22899500 Rios / SP",3546.32
-58,,,,,Julia Vieira,juvieira@gmail.com,11 7276 6356,"Passarela de Macedo, 61
-Vila Jardim Sao Jose
-63111928 Monteiro de Nunes / MT",2525.92
-59,,,,,Fabio Costa,fcosta@gmail.net,(031) 6013-4105,"Estacao Maria Liz Garcia
-Dom Bosco
-63302-377 Campos / RS",1825.93
+nome,email,telefone,endereco,renda
+Ian Monteiro,souzapedro@gmail.org,(084) 9661 9569,"Conjunto de Nunes, 974
+Corumbiara
+50943-144 Guerra / GO",6108.77
+Mirella Brito,ycardoso@gmail.net,71 3994-0904,"Condominio Monteiro, 71
+Jardinopolis
+95050340 Peixoto / SC",2199.9
+Leandro Albuquerque,ana-luizaalmeida@gmail.com,+55 21 5310 5096,"Sitio de Costela, 52
+Anchieta
+24626974 Dias / MT",3602.27
+Maria Clara Vargas,davi-miguel91@gmail.org,+55 11 9787 8478,"Lago Sales, 5
+Caetano Furquim
+88118-715 Novaes Paulista / SP",2779.01
+Gabrielly Rios,mendeshenry-gabriel@gmail.com,+55 (031) 5245-7184,"Campo Antony Camargo
+Senhor Dos Passos
+89552345 Rocha / MS",1057.86
+Thiago Gomes,da-cruzasafe@gmail.net,0800-150-2054,"Vale Henry Pastor, 48
+Santo Agostinho
+33145-080 Moura de Silva / DF",1589.12
+Sr. Theo Machado,eduardo69@gmail.com,+55 21 0610 3234,"Rua Gabriel Vieira, 945
+Nova Gameleira
+07306-514 Novaes de Vasconcelos / RS",9695.43
+Maria Liz Novais,silveiraolivia@gmail.net,11 1740 4780,"Fazenda Matteo Mendonca, 57
+Sao Cristovao
+28233803 Pereira / MG",1698.07
+Benicio Souza,aleao@gmail.net,0300-685-3968,"Patio Sales, 753
+Grajau
+26255043 da Mata / SP",1825.93
+Sofia Castro,jose-miguelnascimento@gmail.org,+55 (081) 2555 5863,"Vereda Marques
+Bernadete
+64355776 da Paz / RR",3371.55
+Murilo da Costa,rezendekamilly@gmail.com,+55 (031) 0978-1038,"Trevo Goncalves, 570
+Boa Uniao 1a Secao
+68852583 Lopes / BA",6174.55
+Caua Moraes,opimenta@gmail.com,+55 (031) 9690 7062,"Trecho Maria Sophia Campos, 9
+Santo Antonio
+98863-275 Marques / PI",5491.97
+Antonio Brito,marianemachado@gmail.org,0900-121-6925,"Vila Novaes, 6
+Mariano De Abreu
+10747715 Cunha Verde / CE",3767.54
+Anthony Camargo,alana24@gmail.org,+55 (011) 9566 3471,"Avenida Liz Cavalcanti, 96
+Araguaia
+36722-858 Cassiano / MT",7396.39
+Larissa Cirino,santosgustavo-henrique@gmail.com,+55 (031) 2655 2233,"Recanto de da Luz
+Minas Brasil
+44787660 Viana / MA",3976.98
+Aylla Moura,oliviaalbuquerque@gmail.net,+55 81 0982-7730,"Alameda Yago Vasconcelos, 67
+Nova Floresta
+48321-899 Aragao de Cassiano / RO",7167.89
+Gabrielly da Luz,camargoluiza@gmail.net,0900-135-4650,"Recanto de Caldeira, 9
+Jardim Guanabara
+57584-644 Barbosa dos Dourados / DF",7156.17
+Ana Vitoria Sales,luiz-gustavo96@gmail.net,0800 983 3707,"Viaduto Rodrigo Araujo, 78
+Universo
+37159-565 Carvalho / ES",9315.16
+Davi Luiz Macedo,mnovaes@gmail.com,+55 61 7050-9579,"Parque Marques, 933
+Santa Rosa
+60050-958 Sales de Albuquerque / TO",8268.35
+Isabelly Teixeira,hnunes@gmail.net,51 7461 2106,"Residencial Gael Sampaio, 47
+Havai
+09791-380 Borges Alegre / RO",6248.32
