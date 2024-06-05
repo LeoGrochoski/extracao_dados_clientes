@@ -5,6 +5,7 @@ Thumbs.db
 # Diretórios de dependências
 venv/
 __pycache__/
+site
 
 # Logs e arquivos temporários
 *.log

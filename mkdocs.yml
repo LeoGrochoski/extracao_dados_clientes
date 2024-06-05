@@ -1,6 +1,6 @@
 site_name: Documentação Projeto ETL IBM # Pode ser usado o nome da sua aplicação
 theme:
-  name: material # Adiciona o tema diferente
+  name: readthedocs 
 plugins:
 - search # Plugin que possibilita buscas pela documentação
 - mkdocstrings: # Esse que faz a mágica, mais informações abaixo

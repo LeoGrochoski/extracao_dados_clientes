@@ -8,9 +8,15 @@ arquivo_log = r"C:/Lab/extracao_dados_clientes/data/arquivo_log.txt"
 arquivo_salvo = r"C:/Lab/extracao_dados_clientes/data/dados_clientes_tratados.csv" 
 
 def carrega_dados(arquivo_salvo, dados_transformados): 
+    """
+    Função para criar arquivo csv que ira armazenar os dados transformados
+    """
     dados_transformados.to_csv(arquivo_salvo)
     
 def progresso_log(mensagem): 
+    """
+    Função para criação do log de eventos do ETL
+    """
     formato_timestamp = '%Y-%h-%d-%H:%M:%S' # Ano-Mes-Dia-Hora-Minuto-Segundo
     now = datetime.now() 
     timestamp = now.strftime(formato_timestamp) 
