@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Criação de Dados - Documentação Projeto ETL IBM</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Cria\u00e7\u00e3o de Dados";
+        var mkdocs_page_input_path = "geracao_dados.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação Projeto ETL IBM
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Sobre o Projeto</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Criação de Dados</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#biblioteca-faker">Biblioteca Faker</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#arquivos">Arquivos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#csv-comma-separated-values">CSV (Comma-Separated Values)</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#formato">Formato:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#uso">Uso:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#vantagens">Vantagens:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#desvantagens">Desvantagens:</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#xml-extensible-markup-language">XML (eXtensible Markup Language)</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#formato_1">Formato:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#uso_1">Uso:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#vantagens_1">Vantagens:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#desvantagens_1">Desvantagens:</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#json-javascript-object-notation">JSON (JavaScript Object Notation)</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#formato_2">Formato:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#uso_2">Uso:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#vantagens_2">Vantagens:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#desvantagens_2">Desvantagens:</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação Projeto ETL IBM</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Criação de Dados</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="criacao-de-dados">Criação de Dados</h1>
+<h2 id="biblioteca-faker">Biblioteca Faker</h2>
+<p>Utilizei a biblioteca faker para geração dos dados sinteticos de clientes. Consegui gerar dados como nome, endereco, telefone, email e renda.
+Utilizei a biblioteca e gerei dados em formatos diferentes, .csv, .json e .xml</p>
+<h2 id="arquivos">Arquivos</h2>
+<h3 id="csv-comma-separated-values">CSV (Comma-Separated Values)</h3>
+<h4 id="formato">Formato:</h4>
+<p>Arquivo de texto simples onde os valores são separados por vírgulas (ou outro delimitador como ponto e vírgula).
+Cada linha do arquivo representa um registro de dados.
+A primeira linha geralmente contém os cabeçalhos das colunas.</p>
+<h4 id="uso">Uso:</h4>
+<p>Amplamente utilizado para exportar e importar dados em tabelas de banco de dados e planilhas.
+Fácil de ler e escrever para scripts e programas.</p>
+<h4 id="vantagens">Vantagens:</h4>
+<p>Simplicidade e legibilidade.
+Compatibilidade com muitos sistemas e ferramentas.</p>
+<h4 id="desvantagens">Desvantagens:</h4>
+<p>Não suporta estruturas de dados complexas (apenas tabelas simples).
+Falta de suporte para tipos de dados (tudo é texto).</p>
+<h3 id="xml-extensible-markup-language">XML (eXtensible Markup Language)</h3>
+<h4 id="formato_1">Formato:</h4>
+<p>Formato de texto estruturado usando tags aninhadas, semelhante ao HTML.
+As tags definem a estrutura e a hierarquia dos dados.
+Suporta atributos para fornecer informações adicionais sobre os elementos.</p>
+<h4 id="uso_1">Uso:</h4>
+<p>Utilizado em várias aplicações para armazenar e transportar dados.
+Comumente usado em web services (SOAP) e configurações de software.</p>
+<h4 id="vantagens_1">Vantagens:</h4>
+<p>Flexível e extensível, capaz de representar estruturas de dados complexas.
+Facilmente legível por humanos e máquinas.</p>
+<h4 id="desvantagens_1">Desvantagens:</h4>
+<p>Verbosidade pode levar a arquivos grandes e de processamento lento.
+Mais complexo de analisar e gerar em comparação com CSV e JSON.</p>
+<h3 id="json-javascript-object-notation">JSON (JavaScript Object Notation)</h3>
+<h4 id="formato_2">Formato:</h4>
+<p>Formato de texto leve para intercâmbio de dados, baseado na sintaxe de objetos do JavaScript.
+Representa dados como pares de chave-valor e arrays.</p>
+<h4 id="uso_2">Uso:</h4>
+<p>Popular em APIs web (especialmente RESTful APIs) para enviar e receber dados.
+Comumente usado em aplicações web para transmissão de dados entre servidor e cliente.</p>
+<h4 id="vantagens_2">Vantagens:</h4>
+<p>Estrutura simples e compacta.
+Nativamente suportado em muitas linguagens de programação, especialmente JavaScript.
+Suporta dados aninhados e complexos.</p>
+<h4 id="desvantagens_2">Desvantagens:</h4>
+<p>Pode não ser tão eficiente em termos de espaço como CSV para dados tabulares simples.
+A falta de comentários pode dificultar a legibilidade em arquivos grandes.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Sobre o Projeto"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Documentação Projeto ETL IBM</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Sobre o Projeto";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Documentação Projeto ETL IBM
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Sobre o Projeto</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#etl-de-arquivos-de-extensoes-diversas">ETL de arquivos de extensões diversas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#objetivos">Objetivos</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#como-executar-o-projeto">Como executar o projeto</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#principais-bibliotecas-e-suas-versoes">Principais bibliotecas e suas versões</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="geracao_dados/">Criação de Dados</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Documentação Projeto ETL IBM</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Sobre o Projeto</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="sobre-o-projeto">Sobre o Projeto</h1>
+<h2 id="etl-de-arquivos-de-extensoes-diversas">ETL de arquivos de extensões diversas</h2>
+<p>O projeto visa o aprendizado de trabalho com extração, transformação e carregamendo de dados vindos de fontes como .csv, .json e .xml.</p>
+<h2 id="objetivos">Objetivos</h2>
+<p>O objetivo principal é manter um projeto coeso, documentado e que sirva de consulta para ferramentas como bibliotecas comuns em etls, documentação, uso de ambiente virtual e versionamento de codigo.</p>
+<h2 id="como-executar-o-projeto">Como executar o projeto</h2>
+<p>1 – Clonar o Repositorio: </p>
+<pre><code>git clone https://github.com/LeoGrochoski/extracao_dados_clientes
+</code></pre>
+<p>2 - Iniciar o ambiente Virtual:</p>
+<pre><code> python -m venv .venv
+</code></pre>
+<p>3 – Instalar as bibliotecas do projeto, pode verificar no arquivo requirements.txt.
+4 – Caso queira utilizar o script para gerar dados sintéticos, rodar o script gerar_dados.py: </p>
+<pre><code>python gerar_dados.py
+</code></pre>
+<p>5 – Para rodar o codigo de carregamento do ETL, ele já executa automaticamente a extração e transformação, arquivo carregamento_dados.py: </p>
+<pre><code>python carregamento_dados.py
+</code></pre>
+<p>6 - É gerado o arquivo dados_clientes_tratados.csv no diretorio "data" contendo os dados tratados.</p>
+<p>7  - Também é gerado o arquivo de log: arquivo_log.txt</p>
+<h2 id="principais-bibliotecas-e-suas-versoes">Principais bibliotecas e suas versões</h2>
+<ul>
+<li>Python 3.12.1</li>
+<li>Pandas 2.2.2</li>
+<li>MKDocs 1.60</li>
+<li>Markdown 3.6</li>
+<li>Unidecode 1.3.8</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="geracao_dados/" class="btn btn-neutral float-right" title="Criação de Dados">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="geracao_dados/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.6.0
+Build Date UTC : 2024-06-06 00:16:12.635756+00:00
+-->
