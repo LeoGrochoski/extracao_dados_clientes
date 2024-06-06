@@ -22,3 +22,7 @@ E por fim os dados utilizados foram gerados de forma sintetica usando a bilbiote
 Primeiramente caso queira dados novos é interessante rodar o arquivo gerar_dados.py e ele vai criar as bases para trabalhar, depois bastar acessar a pasta etl_code e rodar o arquivo carregamento_dados.py para o etl todo rodar, ele irá gerar o arquivo csv e o arquivo de log. 
 
 ## Documentação
+
+A documentação foi feita com a biblioteca MKdocs, foi a primeira vez que utilizei e aproveitei esse pequeno projeto para realizar o teste. 
+
+Para acessar a documentação do projeto feita com MKdocs clicar aqui no link da [Documentação](https://leogrochoski.github.io/extracao_dados_clientes/)
